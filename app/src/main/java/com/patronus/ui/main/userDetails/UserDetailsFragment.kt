@@ -97,8 +97,6 @@ class UserDetailsFragment : Fragment(), OnMapReadyCallback {
                 mMap!!.moveCamera(CameraUpdateFactory.newLatLng(LatLng(lati!!, longi!!)));
                 mMap!!.animateCamera(CameraUpdateFactory.zoomTo(12F));
             }
-
-
         }
 
     }

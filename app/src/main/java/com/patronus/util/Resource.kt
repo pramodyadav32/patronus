@@ -1,7 +1,7 @@
 package com.patronus.util
 
 /**
- * Created by Pramod on 3/19/23.
+ * Created by Pramod on 3/31/23.
  */
 sealed class Resource<T>(val data: T? = null, val message: String? = null) {
     class Loading<T> : Resource<T>()

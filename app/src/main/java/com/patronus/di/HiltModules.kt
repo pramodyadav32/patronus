@@ -1,7 +1,7 @@
 package com.patronus.di
 
 import com.patronus.network.interceptors.ApiService
-import com.patronus.ui.main.folders.FolderRepository
+import com.patronus.ui.main.users.UserRepository
 import com.patronus.util.Constant
 import dagger.Module
 import dagger.Provides
@@ -25,8 +25,8 @@ object HiltModules {
 
 
     @Provides
-    fun provideMainRepository(apiService: ApiService): FolderRepository {
-        return FolderRepository(apiService = apiService)
+    fun provideMainRepository(apiService: ApiService): UserRepository {
+        return UserRepository(apiService = apiService)
     }
 
 

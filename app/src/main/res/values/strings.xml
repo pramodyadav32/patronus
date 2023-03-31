@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Patronus</string>
+    <string name="file_list">File List</string>
+    <string name="file_details">File Details</string>
+</resources>
